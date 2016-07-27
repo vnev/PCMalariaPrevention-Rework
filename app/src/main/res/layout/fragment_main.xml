@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.peacecorps.pcmalariaprevention.MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/dayTextView"
+            android:text="DAY OF THE WEEK"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="100dp"
+            android:background="@mipmap/pill_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:background="@mipmap/select_no"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:background="@mipmap/select_yes"
+                android:layout_height="100dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
